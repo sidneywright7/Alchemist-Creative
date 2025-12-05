@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Alchemist Creative</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin: 10px;
+    }
+
+    h2, p {
+      margin: 10px;
+    }
+
+    /* Navigation Styles */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #38444d;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: rgb(75, 135, 99);
+    }
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* Product Grid Styles */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .product-image {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      background-color: #e0e0e0;
+    }
+
+    .product-info {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .product-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .product-price {
+      font-size: 22px;
+      color: #4b8763;
+      font-weight: bold;
+    }
+
+    .add-to-cart {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #4b8763;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    .add-to-cart:hover {
+      background-color: #3a6b4f;
+    }
+  </style>
+</head>
+<body>
+  <h1>Alchemist Creative</h1>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Sid's Creations</a>
+      <div class="dropdown-content">
+        <a href="#">Gallery</a>
+        <a href="#">Portfolio</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Morning Creative Studio</a>
+      <div class="dropdown-content">
+        <a href="#">Gallery</a>
+        <a href="#">Portfolio</a>
+      </div>
+    </li>
+    <li><a href="#about-us">About Us</a></li>
+  </ul>
+<div class="container">
+    <h2>Small Batch Ceramics</h2>
+    
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="images/mug.jpg" alt="Handmade Mug" class="product-image">
+        <div class="product-info">
+          <div class="product-name">Handmade Ceramic Mug</div>
+          <div class="product-price">$28.00</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="images/pool.jpg" alt="Cermaic Pool" class="product-image">
+        <div class="product-info">
+          <div class="product-name">Ceramic Pool Trinket Dish</div>
+          <div class="product-price">$45.00</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="images/snake.jpg" alt="Snake Ash Tray" class="product-image">
+        <div class="product-info">
+          <div class="product-name">Snake Ash Tray</div>
+          <div class="product-price">$52.00</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="images/tumbler.JPG" alt="Tumbler" class="product-image">
+        <div class="product-info">
+          <div class="product-name">Traveler Tumbler</div>
+          <div class="product-price">$38.00</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card">
+        <img src="images/stamp.jpg" alt="Fish Bowl" class="product-image">
+        <div class="product-info">
+          <div class="product-name">Fish Yarn Bowl</div>
+          <div class="product-price">$32.00</div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
