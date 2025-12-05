@@ -165,3 +165,40 @@ body {
         object-fit: cover;
 
     }
+
+    /* Form styling */
+form {
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  background-color: #4b8763;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #3a6b4f;
+}

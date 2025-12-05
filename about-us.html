@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Alchemist Creative</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Alchemist Creative</h1>
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Sid's Creations</a>
+    <div class="dropdown-content">
+      <a href="sids-gallery.html">Gallery</a>
+      <a href="#sids-portfolio">Portfolio</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Morning Creative Studio</a>
+    <div class="dropdown-content">
+      <a href="morning-gallery.html">Gallery</a>
+      <a href="#morning-portfolio">Portfolio</a>
+    </div>
+  </li>
+  <li><a href="about-us.html">About Us</a></li>
+</ul>
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Welcome to Alchemist Creative! We specialize in handcrafted ceramics and unique artistic creations. We create pieces that are both beautiful and functional.</p>
+    
+    <h2>Contact Us</h2>
+    <p>Have a question or want to place a custom order? Send us a message!</p>
+    
+    <form  action="https://formspree.io/f/xwpgqwqp"
+  method="POST">
+      <label for="name">Name (required):</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      
+      <label for="email">Email (required):</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="subject">Subject:</label><br>
+      <input type="text" id="subject" name="subject"><br><br>
+      
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="50"></textarea><br><br>
+      
+      <input type="submit" value="Send Message">
+    </form>
+  </div>
+</body>
+</html>
