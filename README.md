@@ -8,4 +8,4 @@ Small ceramics business
 • Ideas for future improvement (minimum of 3) = 
    1. Adding a login for promotional emails
    2. Ability to purchase items using various payment methods
-   3. Show shipment tracking after purchase
+   3. Show shipment tracking after purchase   
