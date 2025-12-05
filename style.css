@@ -20,9 +20,14 @@ body {
       list-style-type: none;
       margin: 0;
       padding: 0;
-      overflow: hidden;
-      background-color: #36444e;
+      background-color: #303c46;
     }
+
+ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
     li {
       float: left;
