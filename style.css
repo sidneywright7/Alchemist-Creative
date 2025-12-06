@@ -188,3 +188,22 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #3a6b4f;
 }
+
+/* Footer styling */
+footer {
+  background-color: #303c46;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 0;
+}
+
+footer a {
+  color: rgb(75, 135, 99);
+  text-decoration: none;
+  font-weight: bold;
+}
+footer a:hover {
+  color: rgb(65, 104, 75);
+  text-decoration: underline;
+} 
